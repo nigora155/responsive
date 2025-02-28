@@ -1,0 +1,64 @@
+.bola {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.div-ota {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 120px;
+
+}
+
+
+
+
+@media only screen and (max-width:1364px) {
+    body {
+        background-color: black;
+    }
+
+    .bola {
+        background-color: red;
+    }
+
+}
+@media only screen and (max-width:1146px) {
+    body {
+        background-color: green;
+    }
+    .bola{
+        background-color: yellow;
+    }
+
+}
+@media only screen and (max-width:8px) {
+    body {
+        background-color: rgb(15, 107, 213);
+    }
+
+    .bola {
+        background-color: rgb(52, 20, 209);
+    }
+}
+@media only screen and (max-width:677px) {
+    body {
+        background-color: rgb(74, 213, 164);
+    }
+
+    .bola {
+        background-color: red;
+    }
+}
+@media only screen and (max-width:447px) {
+    body {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .bola {
+        background-color: rgb(10, 36, 121);
+    }
+}
